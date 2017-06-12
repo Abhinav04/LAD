@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.lad.lad.Group"
+    tools:showIn="@layout/activity_group">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+ <LinearLayout
+     android:orientation="vertical"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+    <TextView
+        android:textColor="#FF0000"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lunkar International"
+        android:id="@+id/textView6"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+     <TextView
+         android:textColor="#000000"
+         android:textSize="25dp"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:text="All kind of Moto cross,racing components and latest imported accessories."
+         />
+
+    <TextView
+        android:id="@+id/add"
+        android:textColor="#000FFF"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address:"
+        android:layout_below="@id/textView6"
+        />
+
+    <TextView
+        android:id="@+id/desc"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="#1796/52,Naiwala,Hardhyan Singh Road,Karol Bagh,New Delhi-110005"
+
+        />
+
+    <TextView
+
+        android:id="@+id/mail"
+        android:textColor="#000FFF"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:layout_below="@id/desc"
+        />
+
+
+    <TextView
+        android:id="@+id/descemail"
+        android:textColor="#000000"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="lunkardelhi@gmail.com"
+
+        />
+
+
+    <TextView
+
+
+        android:id="@+id/phone"
+        android:textColor="#000FFF"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Phone:"
+        android:layout_below="@id/descemail"
+        />
+
+    <TextView
+        android:clickable="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:textColorLink="#00FF00"
+        android:id="@+id/descphone"
+        android:textColor="#8BC34A"
+        android:layout_marginTop="5dp"
+        android:textSize="25dp"
+        android:layout_below="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="09711789441"
+
+        />
+
+
+     <TextView
+         android:layout_marginTop="50dp"
+         android:textColor="#FF0000"
+         android:textSize="30dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Mahamantra Enterprises"
+         android:id="@+id/textViewm"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:text="House of two wheeler spares and accessories."
+         android:textColor="#000000"
+         android:textSize="25dp"
+         />
+
+     <TextView
+         android:id="@+id/addm"
+         android:textColor="#000FFF"
+         android:layout_marginTop="20dp"
+         android:textSize="30dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Address:"
+         android:layout_below="@id/textViewm"
+         />
+
+     <TextView
+         android:id="@+id/descm"
+         android:textColor="#000000"
+         android:layout_marginTop="5dp"
+         android:textSize="25dp"
+         android:layout_below="@+id/addm"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="#27,Bhairav Complex,Minerva circle,J.C.road,Opp hotel TAP,MTB Road,Bangalore-02."
+
+         />
+
+     <TextView
+
+         android:id="@+id/mailm"
+         android:textColor="#000FFF"
+         android:layout_marginTop="20dp"
+         android:textSize="30dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Email:"
+         android:layout_below="@id/descm"
+         />
+
+
+     <TextView
+         android:id="@+id/descemailm"
+         android:textColor="#000000"
+         android:layout_marginTop="5dp"
+         android:textSize="25dp"
+         android:layout_below="@+id/mailm"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Mahamantra07@gmail.com"
+
+         />
+
+
+     <TextView
+
+         android:id="@+id/phonem"
+         android:textColor="#000FFF"
+         android:layout_marginTop="20dp"
+         android:textSize="30dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Phone:"
+         android:layout_below="@id/descemailm"
+         />
+
+     <TextView
+         android:id="@+id/descphonem"
+         android:textColor="#8BC34A"
+         android:layout_marginTop="5dp"
+         android:textSize="25dp"
+         android:layout_below="@+id/phonem"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="09742438455"
+
+         />
+
+
+     <TextView
+         android:layout_marginTop="50dp"
+         android:textColor="#FF0000"
+         android:textSize="30dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Motor Bikes"
+         android:id="@+id/textViewmo"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true" />
+
+     <TextView
+         android:textColor="#000000"
+         android:textSize="25dp"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:text="All kind of Moto cross,racing components and Fancy accessories."
+         />
+
+     <TextView
+         android:id="@+id/addmo"
+         android:textColor="#000FFF"
+         android:layout_marginTop="20dp"
+         android:textSize="30dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Address:"
+         android:layout_below="@id/textViewmo"
+         />
+
+     <TextView
+         android:id="@+id/descmo"
+         android:textColor="#000000"
+         android:layout_marginTop="5dp"
+         android:textSize="25dp"
+         android:layout_below="@+id/addmo"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="3rd cross,J.C. Road,Journalist Colony,Bangalore-02"
+
+         />
+
+     <TextView
+
+         android:id="@+id/mailmo"
+         android:textColor="#000FFF"
+         android:layout_marginTop="20dp"
+         android:textSize="30dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Email:"
+         android:layout_below="@id/descmo"
+         />
+
+
+     <TextView
+         android:id="@+id/descemailmo"
+         android:textColor="#000000"
+         android:layout_marginTop="5dp"
+         android:textSize="25dp"
+         android:layout_below="@+id/mailmo"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="bharatlunkar@yahoo.in"
+
+         />
+
+
+     <TextView
+
+         android:id="@+id/phonemo"
+         android:textColor="#000FFF"
+         android:layout_marginTop="20dp"
+         android:textSize="30dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Phone:"
+         android:layout_below="@id/descemailmo"
+         />
+
+     <TextView
+         android:id="@+id/descphonemo"
+         android:textColor="#8BC34A"
+         android:layout_marginTop="5dp"
+         android:textSize="25dp"
+         android:layout_below="@+id/phonemo"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="09886874127"
+
+         />
+
+     <TextView
+         android:layout_marginTop="50dp"
+         android:textColor="#FF0000"
+         android:textSize="30dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Lunkar Auto Mart"
+         android:id="@+id/textViewl"
+         android:layout_alignParentTop="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true" />
+
+     <TextView
+         android:textColor="#000000"
+         android:textSize="25dp"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:text="All kind of Bearings and spares."
+         />
+
+     <TextView
+         android:id="@+id/addl"
+         android:textColor="#000FFF"
+         android:layout_marginTop="20dp"
+         android:textSize="30dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Address:"
+         android:layout_below="@id/textViewl"
+         />
+
+     <TextView
+         android:id="@+id/descl"
+         android:textColor="#000000"
+         android:layout_marginTop="5dp"
+         android:textSize="25dp"
+         android:layout_below="@+id/addl"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="3rd cross,J.C. Road,Journalist Colony,Bangalore-02"
+
+         />
+
+     <TextView
+
+         android:id="@+id/maill"
+         android:textColor="#000FFF"
+         android:layout_marginTop="20dp"
+         android:textSize="30dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Email:"
+         android:layout_below="@id/descl"
+         />
+
+
+     <TextView
+         android:id="@+id/descemaill"
+         android:textColor="#000000"
+         android:layout_marginTop="5dp"
+         android:textSize="25dp"
+         android:layout_below="@+id/maill"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="bharatlunkar@yahoo.in"
+
+         />
+
+
+     <TextView
+
+         android:id="@+id/phonel"
+         android:textColor="#000FFF"
+         android:layout_marginTop="20dp"
+         android:textSize="30dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Phone:"
+         android:layout_below="@id/descemaill"
+         />
+
+     <TextView
+         android:id="@+id/descphonel"
+         android:textColor="#8BC34A"
+         android:layout_marginTop="5dp"
+         android:textSize="25dp"
+         android:layout_below="@+id/phonel"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="08892432880"
+
+         />
+
+
+
+ </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
+

@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.lad.lad.Team"
+    tools:showIn="@layout/activity_team">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:textColor="#FF0000"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Managing Director"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_marginTop="05dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rakesh Jain"
+                android:textSize="30dp"
+                android:textColor="#000FFF"
+                />
+
+            <TextView
+
+
+
+                android:textColorLink="#00FF00"
+                android:textColor="#8BC34A"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09980284908"
+                android:id="@+id/mdphone"
+                />
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:textColor="#FF0000"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sales Team"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:textColor="#000FFF"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bangalore local:"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_marginTop="05dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ravi Jain"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                />
+            <TextView
+                android:layout_marginTop="05dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Devaram"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+
+
+
+                android:textColorLink="#00FF00"
+                android:textColor="#8BC34A"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08792108331"
+                android:id="@+id/localphone"
+                />
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:textColor="#000FFF"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Karnataka:"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_marginTop="05dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Riyaz Pasha"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+
+
+
+                android:textColorLink="#00FF00"
+                android:textColor="#8BC34A"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09342645055"
+                android:id="@+id/outerphone1"
+                />
+            <TextView
+                android:layout_marginTop="05dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vinod Jain"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                />
+            <TextView
+
+
+
+                android:textColorLink="#00FF00"
+                android:textColor="#8BC34A"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="08147674200"
+                android:id="@+id/outerphone2"
+                />
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:textColor="#000FFF"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Coastal Zone(Mangalore):"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_marginTop="05dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Satish Pujara"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+
+
+
+                android:textColorLink="#00FF00"
+                android:textColor="#8BC34A"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09845220407"
+                android:id="@+id/coastalphone"
+                />
+
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:textColor="#000FFF"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Helmets Section:"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_marginTop="05dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sohil Mehta"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+
+
+
+                android:textColorLink="#00FF00"
+                android:textColor="#8BC34A"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09901345679"
+                android:id="@+id/helmetphone"
+                />
+
+
+            <TextView
+                android:layout_marginTop="25dp"
+                android:textColor="#000FFF"
+                android:textSize="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logistics:"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_marginTop="05dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ayub Khan"
+                android:textSize="30dp"
+                android:textColor="#000000"
+                />
+
+            <TextView
+
+
+
+                android:textColorLink="#00FF00"
+                android:textColor="#8BC34A"
+                android:layout_marginTop="5dp"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="09343791825"
+                android:id="@+id/logisticphone"
+                />
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

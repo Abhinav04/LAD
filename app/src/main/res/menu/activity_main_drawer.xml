@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/group"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Our group" />
+        <item
+            android:id="@+id/call"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="Contact us" />
+           </group>
+
+       <item
+           android:id="@+id/team"
+           android:title="Team"
+           android:icon="@android:drawable/stat_sys_headset"
+
+           />
+
+    <item
+        android:id="@+id/about"
+        android:title="About us"
+        android:icon="@android:drawable/ic_menu_agenda"
+
+        />
+
+    <item
+        android:id="@+id/gallery"
+        android:title="Gallery"
+        android:icon="@android:drawable/ic_menu_gallery"
+        />
+
+
+</menu>
